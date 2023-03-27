@@ -12,7 +12,7 @@ jobs:
                 os: [ ubuntu-latest ]
                 php: [ 8.2, 8.1 ]
 
-        name: ${{ matrix.os }} - PHP ${{ matrix.php }}
+        name: Tests ${{ matrix.os }} - PHP ${{ matrix.php }}
 
         steps:
             -   name: Checkout code
