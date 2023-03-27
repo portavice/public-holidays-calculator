@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+
+## Version 1.0.0 (2023-03-27)
+
 ### Added
 - Support for fixed holidays (e.g. 1st January) and Easter based flexible holidays
 - `Carbon` extension to calculate public holidays and working days
