@@ -9,7 +9,7 @@ based on an extension of the [Carbon](https://github.com/briannesbitt/Carbon) li
 To install this package with [Composer](https://getcomposer.org/):
 
 ```bash
-composer require portavice/public-holidays
+composer require portavice/public-holidays-calculator
 ```
 
 ### Use the `Carbon` extension
