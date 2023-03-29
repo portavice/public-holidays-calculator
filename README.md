@@ -1,6 +1,8 @@
 # Calculate with Public Holidays in PHP
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/portavice/public-holidays-calculator.svg?style=flat-square)](https://packagist.org/packages/portavice/public-holidays-calculator)
 <a href="https://packagist.org/packages/portavice/public-holidays-calculator"><img src="https://img.shields.io/packagist/php-v/portavice/public-holidays-calculator.svg?style=flat-square" alt="PHP from Packagist"></a>
+![Test Status](https://img.shields.io/github/actions/workflow/status/portavice/public-holidays-calculator/tests.yml?branch=main&label=Tests)
+![Code Style Status](https://img.shields.io/github/actions/workflow/status/portavice/public-holidays-calculator/code-style.yml?branch=main&label=Code%20Style)
 [![Total Downloads](https://img.shields.io/packagist/dt/portavice/public-holidays-calculator.svg?style=flat-square)](https://packagist.org/packages/portavice/public-holidays-calculator)
 
 This package allows you to calculate with public holidays and working days in PHP
