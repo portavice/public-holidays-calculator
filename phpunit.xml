@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.2/phpunit.xsd"
          backupGlobals="false"
+         backupStaticProperties="false"
+         cacheDirectory=".phpunit.cache"
          colors="true"
          processIsolation="false"
-         stopOnFailure="false"
-         cacheDirectory=".phpunit.cache"
-         backupStaticProperties="false">
+         stopOnFailure="false">
     <coverage>
-        <include>
-            <directory suffix=".php">src</directory>
-        </include>
         <report>
             <clover outputFile=".phpunit.coverage.xml"/>
         </report>
@@ -21,4 +18,9 @@
         </testsuite>
     </testsuites>
     <logging/>
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
 </phpunit>
