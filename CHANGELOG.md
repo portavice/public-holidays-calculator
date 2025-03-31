@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Changed
+- Support Carbon >=3.8.6
 
-- Allow `Carbon` extension with Version >=3.8.6 for Laravel 12 Framework compatibility
 
 ## Version 1.0.0 (2023-03-27)
 
