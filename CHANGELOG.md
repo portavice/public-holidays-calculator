@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Support Carbon >=3.8.6
+- Update development dependencies and GitHub workflows
 
 
 ## Version 1.0.0 (2023-03-27)

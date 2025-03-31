@@ -3,27 +3,22 @@ name: Check code style
 on: [ push ]
 
 jobs:
-    quality:
-        runs-on: ubuntu-latest
+  code-style:
+    runs-on: ubuntu-latest
 
-        strategy:
-            fail-fast: false
-            matrix:
-                php: [ 8.2 ]
+    name: Code style
 
-        name: CS PHP ${{ matrix.php }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-        steps:
-            -   name: Checkout code
-                uses: actions/checkout@v3
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.4
 
-            -   name: Setup PHP
-                uses: shivammathur/setup-php@v2
-                with:
-                    php-version: ${{ matrix.php }}
+      - name: Install
+        run: composer install --prefer-dist --no-interaction
 
-            -   name: Install
-                run: composer install --no-interaction
-
-            -   name: Code style checks for PHP
-                run: composer cs
+      - name: Code style checks for PHP
+        run: composer cs
