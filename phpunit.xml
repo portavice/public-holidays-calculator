@@ -9,7 +9,7 @@
          stopOnFailure="false">
     <coverage>
         <report>
-            <clover outputFile=".phpunit.coverage.xml"/>
+            <clover outputFile="phpunit_coverage.xml"/>
         </report>
     </coverage>
     <testsuites>
