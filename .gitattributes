@@ -18,7 +18,7 @@
 /.gitignore export-ignore
 /composer.json export-ignore
 /composer.lock export-ignore
-/phpcs.xml export-ignore0
+/phpcs.xml export-ignore
 /phpunit.xml export-ignore
 /phpunit_coverage.xml export-ignore
 /phpunit_report.xml export-ignore
