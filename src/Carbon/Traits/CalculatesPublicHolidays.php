@@ -12,7 +12,7 @@ trait CalculatesPublicHolidays
 {
     private static ?Calculator $calculator = null;
 
-    public static function setPublicHolidays(Calculator|array|null $publicHolidays = null): void
+    public static function setPublicHolidays(array|Calculator|null $publicHolidays = null): void
     {
         self::$calculator = is_array($publicHolidays)
             ? new Calculator($publicHolidays)
@@ -24,7 +24,7 @@ trait CalculatesPublicHolidays
         return in_array(
             $this->format('m-d'),
             array_map(
-                static fn(Carbon $holiday) => $holiday->format('m-d'),
+                static fn (Carbon $holiday) => $holiday->format('m-d'),
                 $this->publicHolidaysInYear()
             ),
             true
