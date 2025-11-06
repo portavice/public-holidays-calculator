@@ -1,8 +1,8 @@
 # Calculate with Public Holidays in PHP
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/portavice/public-holidays-calculator.svg?style=flat-square)](https://packagist.org/packages/portavice/public-holidays-calculator)
 <a href="https://packagist.org/packages/portavice/public-holidays-calculator"><img src="https://img.shields.io/packagist/php-v/portavice/public-holidays-calculator.svg?style=flat-square" alt="PHP from Packagist"></a>
 ![Test Status](https://img.shields.io/github/actions/workflow/status/portavice/public-holidays-calculator/tests.yml?branch=main&label=Tests)
 ![Code Style Status](https://img.shields.io/github/actions/workflow/status/portavice/public-holidays-calculator/code-style.yml?branch=main&label=Code%20Style)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/portavice/public-holidays-calculator.svg?style=flat-square)](https://packagist.org/packages/portavice/public-holidays-calculator)
 [![Total Downloads](https://img.shields.io/packagist/dt/portavice/public-holidays-calculator.svg?style=flat-square)](https://packagist.org/packages/portavice/public-holidays-calculator)
 
 This package allows you to calculate with public holidays and working days in PHP
@@ -54,4 +54,4 @@ $dec27->addWorkingDays(10); // 2023-01-10
 ### Code Style
 PHP code MUST follow [PSR-12 specification](https://www.php-fig.org/psr/psr-12/).
 
-We use [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) for the PHP code style check.
+We use [Laravel Pint](https://laravel.com/docs/12.x/pint#configuring-pint) for the PHP code style check.
