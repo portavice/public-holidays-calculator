@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Run tests with PHP 8.5 and 8.6
+- Update actions used in GitHub workflows
+
+### Removed
+- Support for PHP 8.1 and 8.2
+
 
 ## Version 1.1.0 (2025-03-31)
 
